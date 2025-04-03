@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 const port = 3000;
-const MODEL_NAME = "gemini-1.0-flash-001";
+const MODEL_NAME = "gemini-2.0-flash-001";
 const API_KEY = "AIzaSyC1_m68xrO_R6_-PTPQUMA-C9qPARuHMB0"; // 제미나이 API 키로 대체
 const prompt = '﻿Rosie-the-riveter에 관한 내용을 알려줘.'; // 당신의 챗봇에 맞게 프롬프트 변경해주세요
 
